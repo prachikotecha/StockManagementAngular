@@ -1,0 +1,55 @@
+.navbar{
+    background-color: #f4e4cd ;
+    
+    padding: none;
+    position:relative;
+}
+.form-control{
+    border-radius: 3px;
+    width: 400px;
+    margin: 8px 6px;
+    border-color: purple;
+    background-color: #f4e4cd ;
+    top: 36px;
+}
+
+.fa-search{
+    position:absolute;
+    left: 31%;
+    top: 31px;
+    color:purple;
+}
+
+
+.fa-cart-plus{
+    position:absolute;
+    right: 11%;
+    top: 22px;
+    color:purple;
+    font-size: 28px;
+    background-color: #f4e4cd ;
+    border: none;
+}
+.badge{
+    position:absolute;
+    left: 44%;
+    top: 18px;
+    font-size: 16px;
+    color: red;
+}
+
+.fa-user{
+    position:absolute;
+    right: 5%;
+    top: 22px;
+    color:purple;
+    font-size: 28px;
+    background-color: #f4e4cd ;
+    border: none;
+}
+.pic{
+    height: 40px;
+    width: 60px;
+    margin-top: 8px;
+    
+}

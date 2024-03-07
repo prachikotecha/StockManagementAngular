@@ -1,0 +1,64 @@
+.card-top{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    word-wrap: break-word;
+    background: #fff;
+    background-clip: border-box;
+    margin-top: 12px;
+}
+.item img{
+    width: 84px
+}
+.item{
+    margin: 0px 15px;
+    align-items: center;
+    cursor: pointer;
+}
+.item h6{
+    margin: 0px 15px;
+    align-items: center;
+    font-size: large;
+    
+}
+.item a :hover{
+    color: purple;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 62px;
+    text-align: center;
+    font-family: cursive;
+    font-size: small;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    float: left;
+  }
+  
+  .price {
+    color: purple;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color:purple;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+.card img:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
